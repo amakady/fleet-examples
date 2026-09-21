@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+        image: gcr.io/kuar-demo/kuard-amd64:green
         resources:
           requests:
             cpu: 100m
